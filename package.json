@@ -1,0 +1,6 @@
+
+{
+  "scripts": {
+      "test": "htmlhint path/to/html/files/*.html"
+  }
+}
