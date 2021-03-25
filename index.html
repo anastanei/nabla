@@ -230,7 +230,46 @@
           <button class="index-section__button button">Get early access</button>
         </div>
       </section>
-      <section class="subscribe-section"></section>
+      <section class="subscribe-section">
+        <picture class="subscribe-section__sketch">
+          <source type="image/webp" srcset="img/doc-pc-small.webp" />
+          <img
+            class="subscribe-section__sketch-img"
+            src="img/doc-pc-small.png"
+            alt="Smiling doctor sitting in front of a PC"
+            width="328"
+            height="355"
+          />
+        </picture>
+        <div class="subscribe-section__description">
+          <h2 class="subscribe-section__title section-title">Newsletter</h2>
+          <p class="subscribe-section__paragraph">
+            Get the latest news from Nabla on health and artificial
+            intelligence, straight to your inbox.
+          </p>
+          <form class="subscribe-section__form form">
+            <input
+              class="form__input"
+              id="email"
+              name="email"
+              type="text"
+              placeholder="Enter your email address"
+              required
+            />
+
+            <input
+              class="form__button button"
+              type="submit"
+              name="subscribe"
+              value="Submit"
+            />
+            <p class="form__disclaimer">
+              Nabla uses your email address to send you the newsletter.
+              <a class="form__link" href="#no_scroll">More info</a>
+            </p>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="main-footer">
       <img
