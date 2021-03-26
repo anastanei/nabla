@@ -1,3 +1,72 @@
+@font-face {
+  font-family: "Euclid Circular B";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("EuclidCircularB"), local("EuclidCircularB-Regular"),
+    url("../fonts/EuclidCircularB-Regular.woff2") format("woff2"),
+    url("../fonts/EuclidCircularB-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local("EuclidCircularB"), local("EuclidCircularB-SemiBold"),
+    url("../fonts/EuclidCircularB-SemiBold.woff2") format("woff2"),
+    url("../fonts/EuclidCircularB-SemiBold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Regular"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2"),
+    url("../fonts/Roboto-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local("Roboto"), local("Roboto-Bold"),
+    url("../fonts/Roboto-Bold.woff2") format("woff2"),
+    url("../fonts/Roboto-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "caslontwoblackssk";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("caslontwoblackssk"), local("caslontwoblackssk-Regular"),
+    url("../fonts/caslontwoblackssk.woff2") format("woff2"),
+    url("../fonts/caslontwoblackssk.woff") format("woff");
+}
+
+body {
+  font-family: Euclid Circular B, Arial, Verdana, Helvetica, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #6d758d;
+  background-color: #ffffff;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
 .visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
@@ -6,3 +75,100 @@
   margin: -1px;
 }
 
+.button {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: inherit;
+  text-align: center;
+  color: #ffffff;
+}
+
+.button--nav {
+  font-size: 15px;
+}
+
+.button--submit {
+  font-family: Roboto, Arial, Verdana, Helvetica, Tahoma, sans-serif;
+  font-weight: 700;
+}
+
+.lang-switch {
+  font-family: Roboto, Arial, Verdana, Helvetica, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #040062;
+}
+
+.section-title {
+  font-family: caslontwoblackssk, Arial, Verdana, Helvetica, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 132%;
+  color: #040062;
+}
+
+.main-nav__link {
+  font-size: 15px;
+  text-decoration: none;
+  color: #040062;
+}
+
+.intro-section__text {
+  font-family: caslontwoblackssk, Arial, Verdana, Helvetica, Tahoma, sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 140%;
+  text-align: center;
+  color: #040062;
+}
+
+.intro-section__text--second {
+  font-size: 72px;
+}
+
+.intro-section__text--third {
+  font-size: 103px;
+}
+
+.subscribe-section__input::placeholder {
+  font-family: Euclid Circular B, Arial, Verdana, Helvetica, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 150%;
+  color: #6d758d;
+}
+
+.subscribe-section__form-paragraph {
+  font-size: 13px;
+}
+
+.main-footer {
+  font-family: Roboto, Arial, Verdana, Helvetica, Tahoma, sans-serif;
+}
+
+.main-footer__header {
+  font-size: 22px;
+  color: #040062;
+}
+
+.main-footer__link {
+  font-size: 16px;
+  line-height: 200%;
+  text-decoration: none;
+  color: #6d758d;
+}
+
+.main-footer__copyright {
+  font-size: 14px;
+}
+
+.main-footer__copyright-link {
+  text-decoration-line: underline;
+  color: #6d758d;
+}
