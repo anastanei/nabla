@@ -118,6 +118,10 @@ ul {
   color: #040062;
 }
 
+.intro-section {
+  background-color: #c7e3e9;
+}
+
 .intro-section__text {
   font-family: caslontwoblackssk, Arial, Verdana, Helvetica, Tahoma, sans-serif;
   font-weight: 400;
@@ -135,6 +139,14 @@ ul {
   font-size: 103px;
 }
 
+.index-section__screen {
+  background-color: #fef1ef;
+}
+
+.index-section--reversed .index-section__screen {
+  background-color: #c7e3e9;
+}
+
 .subscribe-section__input::placeholder {
   font-family: Euclid Circular B, Arial, Verdana, Helvetica, Tahoma, sans-serif;
   font-style: normal;
@@ -142,6 +154,14 @@ ul {
   font-size: 14px;
   line-height: 150%;
   color: #6d758d;
+}
+
+.subscribe-section {
+  background-color: #f5fbff;
+}
+
+.subscribe-section__sketch {
+  background-color: #c7e3e9;
 }
 
 .subscribe-section__form-paragraph {
