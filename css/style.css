@@ -92,6 +92,10 @@ body {
   font-weight: 700;
 }
 
+.social-button {
+  text-decoration: none;
+}
+
 .lang-switch {
   font-family: Roboto, Arial, Verdana, Helvetica, Tahoma, sans-serif;
   font-style: normal;
@@ -108,11 +112,6 @@ body {
   font-size: 45px;
   line-height: 132%;
   color: #040062;
-}
-
-.social-button {
-  color: #000000;
-  text-decoration: none;
 }
 
 .main-nav__link {
